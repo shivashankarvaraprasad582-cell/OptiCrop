@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top left, rgba(99, 195, 127, 0.18), transparent 28%),
+              linear-gradient(180deg, #eef9f2 0%, #ffffff 100%);
+  color: #1f2937;
+}
+
+.dashboard-shell {
+  min-height: 100vh;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.08), rgba(16, 185, 129, 0.08));
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #059669;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 2rem;
+}
+
+.stat-card {
+  min-width: 140px;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.stat-card span {
+  display: block;
+  font-size: 0.82rem;
+  color: #6b7280;
+}
+
+.stat-card strong {
+  font-size: 1.2rem;
+  color: #0f172a;
+}
+
+.dashboard-card {
+  border: none;
+  border-radius: 1.75rem;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+form .form-control {
+  border-radius: 0.85rem;
+  border: 1px solid #d1d5db;
+  box-shadow: none;
+}
+
+.result-panel {
+  border-radius: 1.5rem;
+}
+
+.result-badge {
+  min-width: 115px;
+  text-align: right;
+}
+
+.result-badge strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #0f5132;
+}
+
+.crop-concept-section {
+  border-radius: 1.5rem;
+}
+
+.crop-image {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+}
+
+.parameter-card {
+  min-height: 100px;
+}
+
+.parameter-card strong {
+  font-size: 1.15rem;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.crop-concept-section h4 {
+  margin-bottom: 1rem;
+}
+
+.crop-concept-section ul {
+  padding-left: 1rem;
+}
+
+.crop-concept-section li {
+  line-height: 1.6;
+}
+
+.feature-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.feature-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.info-block {
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.btn-primary {
+  background: #0f766e;
+  border-color: #0f766e;
+}
+
+.btn-primary:hover {
+  background: #115e59;
+  border-color: #115e59;
+}
+
+@media (max-width: 991px) {
+  .hero-card img {
+    max-height: 280px;
+    object-fit: cover;
+  }
+}
