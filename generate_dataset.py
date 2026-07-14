@@ -23,7 +23,7 @@ for _ in range(1200):
     rainfall = round(random.uniform(50, 300), 2)
     data.append([N, P, K, temperature, humidity, ph, rainfall, crop])
 
-columns = ["N", "P", "K", "temperature", "humidity", "ph", "rainfall", "crop"]
+columns = ["Nitrogen", "Phosphorus", "Potassium", "temperature", "humidity", "ph", "rainfall", "crop"]
 df = pd.DataFrame(data, columns=columns)
 df.to_csv('dataset.csv', index=False)
 print('dataset.csv created with', len(df), 'rows')

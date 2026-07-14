@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
-FEATURE_COLUMNS = ["N", "P", "K", "temperature", "humidity", "ph", "rainfall"]
+FEATURE_COLUMNS = ["Nitrogen", "Phosphorus", "Potassium", "temperature", "humidity", "ph", "rainfall"]
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
 
 

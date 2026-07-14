@@ -1,4 +1,4 @@
-N,P,K,temperature,humidity,ph,rainfall,crop
+Nitrogen,Phosphorus,Potassium,temperature,humidity,ph,rainfall,crop
 21,20,34,17.68,71.61,6.27,274.53,cabbage
 54,37,20,31.11,43.14,6.46,288.0,pea
 22,8,19,16.37,62.19,5.84,206.24,apple

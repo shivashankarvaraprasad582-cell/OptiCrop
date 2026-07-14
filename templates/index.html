@@ -58,7 +58,7 @@
                         {% endif %}
                         <form action="/predict" method="post">
                             <div class="row gy-3">
-                                {% for label in ["N", "P", "K", "temperature", "humidity", "ph", "rainfall"] %}
+                                {% for label in ["Nitrogen(0–500)", "Phosphorus(0-50)", "Potassium(0-400)", "temperature(5-45)", "humidity(20-100)", "ph(4-9)", "rainfall(50-300)"] %}
                                     <div class="col-md-6">
                                         <label class="form-label text-capitalize text-secondary">{{ label }}</label>
                                         <input type="number" step="any" name="{{ label }}" class="form-control form-control-lg" required value="{{ inputs[label] if inputs else '' }}" placeholder="Enter {{ label }}">
