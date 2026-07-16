@@ -39,7 +39,7 @@ OptiCrop is a smart agriculture web application that helps users find the best c
 
 ## 🎥 Demo Video
 
-(Add your demo video link here)
+https://drive.google.com/file/d/1SCSrM1YTS7vqqlUR4dJyqb8lmPZS_Jim/view?usp=sharing
 
 ---
 
